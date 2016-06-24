@@ -1,6 +1,8 @@
 set lines 240
 col file_name format a80
 col tablespace_name format a30
+col bytes 99999999999
+col maxbytes 99999999999
 
 select 
 	file_name, 
